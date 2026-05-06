@@ -6,7 +6,7 @@
 
 在编辑器**行首**或**空格后**输入 `/`，弹出快速插入菜单：
 
-- 继续输入关键词可实时过滤（支持中英文）
+- 继续输入关键词可实时过滤（支持中文、英文、拼音全拼、拼音首字母缩写）
 - 上下键选择，回车或点击插入
 - 选择后自动插入模板并定位光标到可编辑位置
 
@@ -14,22 +14,22 @@
 
 | 类别 | 内容类型 | 触发关键词 |
 |------|---------|-----------|
-| 标题 | Heading 1-6 | `h1`-`h6`、`heading`、`标题` |
-| 列表 | 无序列表 | `ul`、`list`、`bullet`、`列表` |
-| 列表 | 有序列表 | `ol`、`ordered`、`number`、`编号` |
-| 列表 | 任务列表 | `task`、`todo`、`checkbox`、`待办` |
-| 块 | 代码块 | `code`、`codeblock`、`代码` |
-| 块 | 引用 | `quote`、`blockquote`、`引用` |
-| 块 | Callout | `callout`、`admonition`、`提示` |
-| 块 | 表格 | `table`、`表格` |
-| 分隔 | 分割线 | `hr`、`divider`、`line`、`分割线` |
-| 链接 | 链接 | `link`、`url`、`链接` |
-| 链接 | 图片 | `image`、`img`、`图片` |
-| 嵌入 | 嵌入文件 | `embed`、`file`、`嵌入` |
-| 图表 | Mermaid 图 | `mermaid`、`diagram`、`流程图` |
-| 数学 | 数学公式块 | `math`、`formula`、`latex`、`公式` |
-| 引用 | 脚注 | `footnote`、`fn`、`脚注` |
-| 标签 | 标签 | `tag`、`标签` |
+| 标题 | Heading 1-6 | `h1`-`h6`、`heading`、`标题`、`biaoti`、`bt` |
+| 列表 | 无序列表 | `ul`、`list`、`bullet`、`列表`、`wuxuliebiao`、`wxlb` |
+| 列表 | 有序列表 | `ol`、`ordered`、`number`、`编号`、`youxuliebiao`、`yxlb` |
+| 列表 | 任务列表 | `task`、`todo`、`checkbox`、`待办`、`renwu`、`rw` |
+| 块 | 代码块 | `code`、`codeblock`、`代码`、`daimakuai`、`dmk` |
+| 块 | 引用 | `quote`、`blockquote`、`引用`、`yinyong`、`yy` |
+| 块 | Callout | `callout`、`admonition`、`提示`、`tishi`、`ts` |
+| 块 | 表格 | `table`、`表格`、`biaoge`、`bg` |
+| 分隔 | 分割线 | `hr`、`divider`、`line`、`分割线`、`fengexian`、`fgx` |
+| 链接 | 链接 | `link`、`url`、`链接`、`lianjie`、`lj` |
+| 链接 | 图片 | `image`、`img`、`图片`、`tupian`、`tp` |
+| 嵌入 | 嵌入文件 | `embed`、`file`、`嵌入`、`qianruwenjian`、`qrwj` |
+| 图表 | Mermaid 图 | `mermaid`、`diagram`、`流程图`、`liuchengtu`、`lct` |
+| 数学 | 数学公式块 | `math`、`formula`、`latex`、`公式`、`shuxuegongshi`、`sxgs` |
+| 引用 | 脚注 | `footnote`、`fn`、`脚注`、`jiaozhu`、`jz` |
+| 标签 | 标签 | `tag`、`标签`、`biaoqian`、`bq` |
 
 ## 安装
 
@@ -69,7 +69,7 @@ npm run build
 - 基于 Obsidian 的 `EditorSuggest` API
 - TypeScript + esbuild 构建
 - 触发条件：行首或空格后输入 `/`
-- 支持中英文关键词模糊匹配
+- 支持中文、英文、拼音全拼、拼音首字母缩写模糊匹配
 
 ## License
 
