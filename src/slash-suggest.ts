@@ -32,12 +32,13 @@ export class SlashSuggest extends EditorSuggest<SlashItem> {
 		const line = editor.getLine(cursor.line);
 		const beforeCursor = line.slice(0, cursor.ch);
 
-		const match = beforeCursor.match(/(?:^|\s)\/([\w一-鿿]*)$/);
+		const match = beforeCursor.match(/(?:^|\s)[/、]([\w一-鿿]*)$/);
 		if (!match) {
 			return null;
 		}
 
-		const slashIndex = beforeCursor.lastIndexOf("/");
+		const triggerChar = beforeCursor.match(/[/、][^/、]*$/);
+		const slashIndex = triggerChar ? beforeCursor.lastIndexOf(triggerChar[0].charAt(0)) : beforeCursor.lastIndexOf("/");
 		return {
 			start: { line: cursor.line, ch: slashIndex },
 			end: cursor,
