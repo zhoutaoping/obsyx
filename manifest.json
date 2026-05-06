@@ -1,0 +1,9 @@
+{
+	"id": "obsyx",
+	"name": "Obsyx",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Quick insert content with \"/\" slash commands, inspired by Feishu/Lark.",
+	"author": "Obsyx",
+	"isDesktopOnly": false
+}

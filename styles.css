@@ -1,0 +1,38 @@
+.obsyx-slash-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 4px 8px;
+}
+
+.obsyx-slash-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	color: var(--text-muted);
+	flex-shrink: 0;
+}
+
+.obsyx-slash-icon svg {
+	width: 16px;
+	height: 16px;
+}
+
+.obsyx-slash-text {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.obsyx-slash-name {
+	font-size: var(--font-ui-small);
+	font-weight: 500;
+	color: var(--text-normal);
+}
+
+.obsyx-slash-desc {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
